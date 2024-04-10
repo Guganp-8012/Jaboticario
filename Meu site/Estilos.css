@@ -1,0 +1,243 @@
+html{
+    height: 100%;
+    background-color: rgb(216, 225, 255);
+}
+
+body{
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  /* O align-items faz o alinhamento vertical e o justify-content o horizontal */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-head{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    padding: 18px 200px;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+}
+
+.acesso-conta{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 500px;
+}
+
+.nav-head-link{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(116, 116, 116);
+}
+
+.nav-head-link:hover{
+    text-decoration: underline;
+}
+
+.acessibilidade{
+    align-self: center;
+}
+
+.barra-de-busca{
+    display: flex;
+    align-items: center;
+}
+
+.bkg-barra-de-busca{
+    background-color: rgb(253, 250, 242);
+    padding: 12px 90px 12px 16px;
+    color: rgba(116, 116, 116, 0.8);
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.btn-barra-de-busca{
+    background-color: rgb(38, 10, 138);
+    cursor: pointer;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    padding: 10px 13px;
+}
+
+.btn-barra-de-busca:hover{
+    background-color: rgb(68, 20, 168);
+}
+
+.nav-list{
+    list-style: none;
+    margin: 0px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(38, 10, 138);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.nav-item-link{
+    padding: 10px 16px;
+    text-decoration: none;
+    color:white;
+}
+
+.nav-item-link:hover{
+    background-color: rgb(225, 97, 0);
+    color: black;
+    /* display: inline-block; */
+}
+
+.apresentacao{
+    align-self: center;
+}
+
+.banner1{
+    padding: 20px 0px;
+    width: 1220px;
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.banner1-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+
+.banner1-text{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 250px;
+    color: rgb(225, 97, 0);
+}
+
+.banner1-app{
+    align-self: center;
+}
+
+.btn-app{
+    background-color: rgb(225, 97, 0);
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    border-bottom: 3px solid rgb(38, 10, 138);
+}
+
+.btn-app:hover{
+    background-color: rgb(68, 20, 168);
+    border-bottom: 3px solid rgb(225, 97, 0);
+}
+
+.produtos{
+    display: flex;
+    width: 1220px;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap; /* para quebrar linha e não "atravessar a tela" */
+    align-self: center;
+    padding: 20px 0px;
+}
+
+.produto-card{
+    box-shadow: 0px 5px 5px 0px rgb(116, 116, 116);
+    background-color: rgb(253, 250, 242);
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 700;
+    border: 1px solid rgba(116, 116, 116, 0.8);
+    border-radius: 6px;
+    padding: 15px;
+    font-family: Calibri;
+}
+
+.produto-card:hover{
+    border: 1px solid rgb(46, 46, 46);
+}
+
+.produto-conteudo{
+    display: flex;
+    flex-direction: column;
+}
+
+.produto-foto{
+    align-self: center;
+    padding: 10px;
+}
+
+.produto-descricao{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.produto-descricao:hover{
+    color: rgb(38, 10, 138);
+}
+
+.produto-compra{
+    display: flex;
+    flex-direction: column;
+}
+
+.produto-preco{
+    font-size: 30px;
+    padding: 0px 5px 15px;
+}
+
+.btn-compra{
+    width: 250px;
+    background-color: rgb(38, 10, 138);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.btn-compra:hover{
+    background-color: rgb(68, 20, 168);
+}
+
+footer{
+    justify-content: space-between;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: rgb(38, 10, 138);
+    color: white;
+}
+
+/*
+.btn-teste1{
+    opacity: 0;
+}
+
+.btn-teste1:hover .btn-teste3{
+    opacity: 1;
+}
+*/
